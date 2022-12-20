@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#B78E51,#DE4256);
+}
+video{
+    width: 384px;
+    height: 222px;
+    border-radius: 800px;
+    
+    
+}
+.container{
+    height: 100vh;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.css-typing h1 {
+font-family: 'Ubuntu', sans-serif;
+font-weight: 700;
+font-size: 6vw;
+white-space: nowrap;
+overflow: hidden;
+color: white;
+}
+.css-typing{
+    width: 800px;
+
+}
+.css-typing h2 {
+font-weight: 500;
+font-size: 5vw;
+white-space: nowrap;
+overflow: hidden;
+color: white;
+}
+.css-typing h1:nth-child(1) {
+width: 9em;
+animation: type .2s ;
+animation: type 1.3s steps(15, end);
+}
+
+.css-typing h1:nth-child(2) {
+width: 8em;
+opacity: 0;
+animation: type2 1s steps(15, end);
+animation-delay: 1s;
+animation-fill-mode: forwards;
+}
+
+.css-typing h1:nth-child(3) {
+width: 7.3em;
+opacity: 0;
+animation: type3 1s steps(15, end);
+animation-delay: 2s;
+animation-fill-mode: forwards;
+}
+.css-typing h2:nth-child(4) {
+width: 7.3em;
+opacity: 0;
+animation: type4 1s steps(15, end);
+animation-delay: 4s;
+animation-fill-mode: forwards;
+}
+
+@keyframes type {
+0% {
+  width: 0;
+}
+99.9% {
+ 
+}
+
+}
+
+@keyframes type2 {
+10% {
+  width: 0;
+}
+1% {
+  opacity: 1;
+}
+
+100% {
+  opacity: 1;
+  border: none;
+}
+}
+
+@keyframes type3 {
+10% {
+  width: 0;
+}
+1% {
+  opacity: 1;
+}
+100% {
+  opacity: 1;
+}
+}
